@@ -1,0 +1,302 @@
+@keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  to {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+}
+body {
+  margin: 0;
+  line-height: normal;
+}
+.rectangle-div6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  width: 1365px;
+  height: 200px;
+}
+.rectangle-button1,
+.rectangle-button2,
+.rectangle-button3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gray-200);
+  position: absolute;
+  top: 78px;
+  left: 230px;
+  width: 215px;
+  height: 74px;
+  opacity: 1;
+}
+.rectangle-button1.animate,
+.rectangle-button2.animate,
+.rectangle-button3.animate {
+  animation: 1s ease 0s 1 normal forwards scale-down-center;
+}
+.rectangle-button2,
+.rectangle-button3 {
+  top: 79px;
+  left: 575px;
+}
+.rectangle-button3 {
+  background-color: var(--color-gray-300);
+  left: 920px;
+}
+.coming-div1,
+.direct-div2,
+.past-div2 {
+  position: absolute;
+  top: 92px;
+  left: 268px;
+  display: inline-block;
+}
+.direct-div2,
+.past-div2 {
+  left: 613px;
+}
+.past-div2 {
+  left: 971px;
+  color: var(--color-white);
+}
+.navbar-div1 {
+  position: absolute;
+  top: 0;
+  left: 615px;
+  width: 1365px;
+  height: 200px;
+}
+.matches-div3,
+.rectangle-div7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-100);
+  width: 615px;
+  height: 1980px;
+}
+.matches-div3 {
+  background-color: var(--color-gray-300);
+  backdrop-filter: blur(4px);
+  width: 400px;
+  height: 118.42px;
+}
+.matches-div4,
+.matches-div5 {
+  position: absolute;
+  display: inline-block;
+  height: 56.84px;
+}
+.matches-div4 {
+  top: 33.16px;
+  left: 133.75px;
+  color: var(--color-white);
+  width: 203.75px;
+}
+.matches-div5 {
+  top: 196.58px;
+  left: 135px;
+  width: 202.5px;
+}
+.rectangle-icon1,
+.scores-div1 {
+  position: absolute;
+  top: 165.79px;
+  left: 0;
+  width: 400px;
+  height: 118.42px;
+}
+.scores-div1 {
+  top: 200.13px;
+  left: 135px;
+  display: inline-block;
+  width: 163.75px;
+  height: 56.84px;
+}
+.rectangle-div8 {
+  position: absolute;
+  top: 331.58px;
+  left: 0;
+  background-color: var(--color-gray-200);
+  width: 400px;
+  height: 118.42px;
+}
+.rankings-div1 {
+  position: absolute;
+  top: 360px;
+  left: 133.75px;
+  display: inline-block;
+  width: 201.25px;
+  height: 56.84px;
+}
+.vector-icon1 {
+  position: absolute;
+  height: 13.16%;
+  width: 15.6%;
+  top: 6.84%;
+  right: 69.71%;
+  bottom: 80%;
+  left: 14.69%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.square-poll-horizontal-solid-1-icon1,
+.trophy-solid-1-icon1 {
+  position: absolute;
+  top: 196.58px;
+  left: 58.75px;
+  width: 62.5px;
+  height: 59.21px;
+  overflow: hidden;
+}
+.trophy-solid-1-icon1 {
+  top: 360px;
+}
+.side-div1 {
+  position: absolute;
+  top: 590px;
+  left: 107px;
+  width: 400px;
+  height: 450px;
+}
+.fifa-world-cup-qatar-2022-11 {
+  position: absolute;
+  top: 92px;
+  left: 122px;
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+}
+.fifa-world-cup-qatar-20229564-div1 {
+  position: absolute;
+  top: 117px;
+  left: 105px;
+  width: 402px;
+  height: 432px;
+}
+.rectangle-div9,
+.sidebar-div1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 615px;
+  height: 1980px;
+}
+.rectangle-div9 {
+  background-color: var(--color-gray-100);
+  width: 905px;
+  height: 250px;
+}
+.vs-div {
+  position: absolute;
+  top: 125px;
+  left: 429px;
+  display: inline-block;
+}
+.ellipse-icon,
+.ellipse-icon1,
+.rectangle-div10 {
+  position: absolute;
+  top: 18px;
+  left: 115px;
+  width: 215px;
+  height: 215px;
+}
+.ellipse-icon1,
+.rectangle-div10 {
+  left: 575px;
+}
+.rectangle-div10 {
+  top: 49px;
+  left: 345px;
+  background-color: var(--color-gray-300);
+  height: 50px;
+}
+.friday-december-9-16h00 {
+  position: absolute;
+  top: 63px;
+  left: 351px;
+  font-size: var(--font-size-base);
+  display: inline-block;
+}
+.rectangle-div11 {
+  position: absolute;
+  top: 183px;
+  left: 345px;
+  background-color: var(--color-gray-300);
+  width: 215px;
+  height: 50px;
+}
+.final-div {
+  position: absolute;
+  top: 189px;
+  left: 397px;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+}
+.brazil-icon,
+.croatia-icon {
+  position: absolute;
+  top: 27px;
+  left: 123px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.croatia-icon {
+  top: 25px;
+  left: 583px;
+}
+.cell-div {
+  position: absolute;
+  top: 267px;
+  left: 845px;
+  width: 905px;
+  height: 250px;
+}
+.cell-div1,
+.cell-div2,
+.cell-div3,
+.cell-div4,
+.cell-div5 {
+  position: absolute;
+  top: 549px;
+  left: 845px;
+  width: 905px;
+  height: 250px;
+}
+.cell-div2,
+.cell-div3,
+.cell-div4,
+.cell-div5 {
+  top: 831px;
+}
+.cell-div3,
+.cell-div4,
+.cell-div5 {
+  top: 1113px;
+}
+.cell-div4,
+.cell-div5 {
+  top: 1395px;
+}
+.cell-div5 {
+  top: 1677px;
+}
+.past-div1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1980px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

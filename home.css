@@ -1,0 +1,327 @@
+@keyframes scale-down-center {
+    0% {
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+    to {
+      -webkit-transform: scale(0.5);
+      transform: scale(0.5);
+    }
+  }
+  body {
+    margin: 0;
+    line-height: normal;
+  }
+  .matches-div6,
+  .rectangle-div27 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-gray-100);
+    width: 615px;
+    height: 1980px;
+  }
+  .matches-div6 {
+    background-color: var(--color-gray-300);
+    backdrop-filter: blur(4px);
+    width: 400px;
+    height: 118.42px;
+  }
+  .matches-div7,
+  .matches-div8 {
+    position: absolute;
+    display: inline-block;
+    height: 56.84px;
+  }
+  .matches-div7 {
+    top: 33.16px;
+    left: 133.75px;
+    color: var(--color-white);
+    width: 203.75px;
+  }
+  .matches-div8 {
+    top: 196.58px;
+    left: 135px;
+    width: 202.5px;
+  }
+  .rectangle-icon2,
+  .scores-div2 {
+    position: absolute;
+    top: 165.79px;
+    left: 0;
+    width: 400px;
+    height: 118.42px;
+  }
+  .scores-div2 {
+    top: 200.13px;
+    left: 135px;
+    display: inline-block;
+    width: 163.75px;
+    height: 56.84px;
+  }
+  .rectangle-div28 {
+    position: absolute;
+    top: 331.58px;
+    left: 0;
+    background-color: var(--color-gray-200);
+    width: 400px;
+    height: 118.42px;
+  }
+  .rankings-div2 {
+    position: absolute;
+    top: 360px;
+    left: 133.75px;
+    display: inline-block;
+    width: 201.25px;
+    height: 56.84px;
+  }
+  .vector-icon2 {
+    position: absolute;
+    height: 13.16%;
+    width: 15.6%;
+    top: 6.84%;
+    right: 69.71%;
+    bottom: 80%;
+    left: 14.69%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .square-poll-horizontal-solid-1-icon2,
+  .trophy-solid-1-icon2 {
+    position: absolute;
+    top: 196.58px;
+    left: 58.75px;
+    width: 62.5px;
+    height: 59.21px;
+    overflow: hidden;
+  }
+  .trophy-solid-1-icon2 {
+    top: 360px;
+  }
+  .side-div2 {
+    position: absolute;
+    top: 590px;
+    left: 107px;
+    width: 400px;
+    height: 450px;
+  }
+  .fifa-world-cup-qatar-2022-12 {
+    position: absolute;
+    top: 92px;
+    left: 122px;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+  }
+  .fifa-world-cup-qatar-20229564-div2 {
+    position: absolute;
+    top: 117px;
+    left: 105px;
+    width: 402px;
+    height: 432px;
+  }
+  .rectangle-div29,
+  .sidebar-div2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 615px;
+    height: 1980px;
+  }
+  .rectangle-div29 {
+    background-color: var(--color-gray-100);
+    width: 1365px;
+    height: 200px;
+  }
+  .rectangle-button4,
+  .rectangle-button5,
+  .rectangle-button6 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-gray-300);
+    position: absolute;
+    top: 78px;
+    left: 230px;
+    width: 215px;
+    height: 74px;
+    opacity: 1;
+  }
+  .rectangle-button4.animate,
+  .rectangle-button5.animate,
+  .rectangle-button6.animate {
+    animation: 1s ease 0s 1 normal forwards scale-down-center;
+  }
+  .rectangle-button5,
+  .rectangle-button6 {
+    background-color: var(--color-gray-200);
+    top: 79px;
+    left: 575px;
+  }
+  .rectangle-button6 {
+    left: 920px;
+  }
+  .coming-div2,
+  .direct-div3,
+  .past-div3 {
+    position: absolute;
+    top: 92px;
+    display: inline-block;
+  }
+  .coming-div2 {
+    left: 268px;
+    color: var(--color-white);
+  }
+  .direct-div3,
+  .past-div3 {
+    left: 613px;
+  }
+  .past-div3 {
+    left: 971px;
+  }
+  .navbar-div2,
+  .rectangle-div30 {
+    position: absolute;
+    top: 0;
+    left: 615px;
+    width: 1365px;
+    height: 200px;
+  }
+  .rectangle-div30 {
+    left: 0;
+    background-color: #d1d1d1;
+    height: 1784px;
+  }
+  .rectangle-div31 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-gray-100);
+    width: 905px;
+    height: 250px;
+  }
+  .vs-div6 {
+    position: absolute;
+    top: 125px;
+    left: 429px;
+    display: inline-block;
+  }
+  .ellipse-icon12,
+  .ellipse-icon13,
+  .rectangle-div32 {
+    position: absolute;
+    top: 18px;
+    left: 115px;
+    width: 215px;
+    height: 215px;
+  }
+  .ellipse-icon13,
+  .rectangle-div32 {
+    left: 575px;
+  }
+  .rectangle-div32 {
+    top: 49px;
+    left: 345px;
+    background-color: var(--color-gray-300);
+    height: 50px;
+  }
+  .friday-december-9-16h006 {
+    position: absolute;
+    top: 63px;
+    left: 351px;
+    font-size: var(--font-size-base);
+    display: inline-block;
+  }
+  .rectangle-div33 {
+    position: absolute;
+    top: 183px;
+    left: 345px;
+    background-color: var(--color-gray-300);
+    width: 215px;
+    height: 50px;
+  }
+  .final-div6 {
+    position: absolute;
+    top: 189px;
+    left: 397px;
+    font-size: var(--font-size-lg);
+    display: inline-block;
+  }
+  .brazil-icon6,
+  .croatia-icon6 {
+    position: absolute;
+    top: 27px;
+    left: 123px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  .croatia-icon6 {
+    top: 25px;
+    left: 583px;
+  }
+  .cell-div6,
+  .cell-div7,
+  .cell-div8,
+  .cell-div9,
+  .rectangle-div43 {
+    position: absolute;
+    top: 221px;
+    left: 230px;
+    width: 905px;
+    height: 250px;
+  }
+  .cell-div7,
+  .cell-div8,
+  .cell-div9,
+  .rectangle-div43 {
+    top: 503px;
+  }
+  .cell-div8,
+  .cell-div9,
+  .rectangle-div43 {
+    top: 785px;
+  }
+  .cell-div9,
+  .rectangle-div43 {
+    top: 1067px;
+  }
+  .rectangle-div43 {
+    top: 73px;
+    left: 460px;
+    background-color: #efefef;
+    width: 445px;
+    height: 78px;
+  }
+  .remaining-matches-4 {
+    position: absolute;
+    top: 89px;
+    left: 480px;
+    display: inline-block;
+  }
+  .main-div,
+  .project-div {
+    position: absolute;
+    top: 196px;
+    left: 615px;
+    width: 1365px;
+    height: 1784px;
+  }
+  .project-div {
+    top: 0;
+    left: 0;
+    width: 1980px;
+    height: 1980px;
+  }
+  .home-div {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 1980px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }  

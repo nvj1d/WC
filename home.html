@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <title></title>
+
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./home.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="home-div">
+      <div class="project-div">
+        <div class="sidebar-div2">
+          <div class="rectangle-div27"></div>
+          <div class="side-div2">
+            <div class="matches-div6"></div>
+            <div class="matches-div7">Matches</div>
+            <div class="matches-div8">matches</div>
+            <img class="rectangle-icon2" alt="" src="public/rectangle-22.svg" />
+            <div class="scores-div2">Scores</div>
+            <div class="rectangle-div28"></div>
+            <div class="rankings-div2">rankings</div>
+            <img class="vector-icon2" alt="" src="public/vector2.svg" /><img
+              class="square-poll-horizontal-solid-1-icon2"
+              alt=""
+              src="public/squarepollhorizontalsolid-12.svg"
+            /><img
+              class="trophy-solid-1-icon2"
+              alt=""
+              src="public/trophysolid-12.svg"
+            />
+          </div>
+          <img
+            class="fifa-world-cup-qatar-2022-12"
+            alt=""
+            src="public/fifa-world-cup-qatar-2022-12.svg"
+          />
+          <div class="fifa-world-cup-qatar-20229564-div2"></div>
+        </div>
+        <div class="navbar-div2">
+          <div class="rectangle-div29"></div>
+          <button class="rectangle-button4" data-animate-on-scroll></button
+          ><button class="rectangle-button5" data-animate-on-scroll></button
+          ><button class="rectangle-button6" data-animate-on-scroll></button>
+          <div class="coming-div2">Coming</div>
+          <div class="direct-div3">Direct</div>
+          <div class="past-div3">Past</div>
+        </div>
+        <div class="main-div">
+          <div class="rectangle-div30"></div>
+          <div class="cell-div6">
+            <div class="rectangle-div31"></div>
+            <div class="vs-div6">Vs</div>
+            <img class="ellipse-icon12" alt="" src="public/ellipse-1.svg" /><img
+              class="ellipse-icon13"
+              alt=""
+              src="public/ellipse-1.svg"
+            />
+            <div class="rectangle-div32"></div>
+            <div class="friday-december-9-16h006">
+              Friday, December 9, 16h00
+            </div>
+            <div class="rectangle-div33"></div>
+            <div class="final-div6">1/4 final</div>
+            <img class="brazil-icon6" alt="" src="public/brazil@2x.png" /><img
+              class="croatia-icon6"
+              alt=""
+              src="public/croatia@2x.png"
+            />
+          </div>
+          <div class="cell-div7">
+            <div class="rectangle-div31"></div>
+            <div class="vs-div6">Vs</div>
+            <img class="ellipse-icon12" alt="" src="public/ellipse-1.svg" /><img
+              class="ellipse-icon13"
+              alt=""
+              src="public/ellipse-1.svg"
+            />
+            <div class="rectangle-div32"></div>
+            <div class="friday-december-9-16h006">
+              Friday, December 9, 16h00
+            </div>
+            <div class="rectangle-div33"></div>
+            <div class="final-div6">1/4 final</div>
+            <img class="brazil-icon6" alt="" src="public/brazil@2x.png" /><img
+              class="croatia-icon6"
+              alt=""
+              src="public/croatia@2x.png"
+            />
+          </div>
+          <div class="cell-div8">
+            <div class="rectangle-div31"></div>
+            <div class="vs-div6">Vs</div>
+            <img class="ellipse-icon12" alt="" src="public/ellipse-1.svg" /><img
+              class="ellipse-icon13"
+              alt=""
+              src="public/ellipse-1.svg"
+            />
+            <div class="rectangle-div32"></div>
+            <div class="friday-december-9-16h006">
+              Friday, December 9, 16h00
+            </div>
+            <div class="rectangle-div33"></div>
+            <div class="final-div6">1/4 final</div>
+            <img class="brazil-icon6" alt="" src="public/brazil@2x.png" /><img
+              class="croatia-icon6"
+              alt=""
+              src="public/croatia@2x.png"
+            />
+          </div>
+          <div class="cell-div9">
+            <div class="rectangle-div31"></div>
+            <div class="vs-div6">Vs</div>
+            <img class="ellipse-icon12" alt="" src="public/ellipse-1.svg" /><img
+              class="ellipse-icon13"
+              alt=""
+              src="public/ellipse-1.svg"
+            />
+            <div class="rectangle-div32"></div>
+            <div class="friday-december-9-16h006">
+              Friday, December 9, 16h00
+            </div>
+            <div class="rectangle-div33"></div>
+            <div class="final-div6">1/4 final</div>
+            <img class="brazil-icon6" alt="" src="public/brazil@2x.png" /><img
+              class="croatia-icon6"
+              alt=""
+              src="public/croatia@2x.png"
+            />
+          </div>
+          <div class="rectangle-div43"></div>
+          <div class="remaining-matches-4">remaining matches 4</div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var scrollAnimElements = document.querySelectorAll("[data-animate-on-scroll]");
+      var observer = new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries) {
+            if (entry.isIntersecting || entry.intersectionRatio > 0) {
+              const targetElement = entry.target;
+              targetElement.classList.add("animate");
+              observer.unobserve(targetElement);
+            }
+          }
+        },
+        {
+          threshold: 0.15,
+        }
+      );
+      
+      for (let i = 0; i < scrollAnimElements.length; i++) {
+        observer.observe(scrollAnimElements[i]);
+      }
+      </script>
+  </body>
+</html>
